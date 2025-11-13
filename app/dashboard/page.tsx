@@ -120,21 +120,21 @@ export default function DashboardPage() {
           placeholder="Search by title..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="p-2 rounded-md text-black w-full"
+          className="p-2 rounded-md text-white w-full"
         />
         <input
           type="number"
           placeholder="Min Year"
           value={minYear}
           onChange={(e) => setMinYear(e.target.value)}
-          className="p-2 rounded-md text-black w-full"
+          className="p-2 rounded-md text-white w-full"
         />
         <input
           type="number"
           placeholder="Max Year"
           value={maxYear}
           onChange={(e) => setMaxYear(e.target.value)}
-          className="p-2 rounded-md text-black w-full"
+          className="p-2 rounded-md text-white w-full"
         />
       </div>
 
