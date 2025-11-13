@@ -87,7 +87,7 @@ export default function FavoritesPage() {
   // -----------------------------
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-6">💛 My Favorites</h1>
+      <h1 className="text-2xl text-center font-bold mb-6">Favorites</h1>
 
       {loading ? (
         <p className="text-gray-400">Loading favorites...</p>

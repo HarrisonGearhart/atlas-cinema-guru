@@ -86,7 +86,7 @@ export default function WatchLaterPage() {
   // -----------------------------
   return (
     <div className="p-6">
-      <h1 className="text-2xl font-bold mb-6">⏰ My Watch Later</h1>
+      <h1 className="text-2xl text-center font-bold mb-6">Watch Later</h1>
 
       {loading ? (
         <p className="text-gray-400">Loading watch-later movies...</p>
